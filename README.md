@@ -30,3 +30,31 @@
 - day1_numpy_operations.py
 - day1_numpy_statistics.py
 - student_scores.csv
+
+## Day 2 – Pandas for Data Manipulation
+
+### Dataset
+Used official Government of India state/UT datasets from data.gov.in.
+
+### Tasks Completed
+- Loaded Indian state-wise dataset using Pandas
+- Checked dataset shape, data types, and first 10 rows
+- Performed filtering based on population density
+- Used groupby() to calculate average population density
+- Merged population data with area, district, and village data
+- Created a pivot table for population density by category
+- Exported cleaned data to CSV
+- Exported cleaned data to Parquet
+- Compared CSV and Parquet file sizes
+
+### Tools and Technologies
+- Python
+- Pandas
+- PyArrow
+- VS Code
+- Git and GitHub
+
+### Output
+- Merged dataset: 34 rows × 13 columns
+- CSV size: 3140 bytes
+- Parquet size: 12000 bytes
