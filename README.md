@@ -79,3 +79,33 @@ Used official Government of India state/UT datasets from data.gov.in.
 
 ### Validation
 All Day 3 NumPy validation tests passed successfully.
+## Day 4 – Exploratory Data Analysis (EDA)
+
+### Tasks Completed
+- Inspected the dataset using `df.describe()`, `df.info()`, and `df.isnull().sum()`.
+- Identified and handled missing ML score values using the median.
+- Documented five observations from the dataset.
+- Created distributions for all important numeric columns.
+- Created a correlation heatmap to analyze relationships between numeric features.
+- Created a top-category count chart for student departments.
+- Performed feature engineering by calculating average scores and grades.
+- Wrote an EDA narrative describing findings, suspicious areas, and possible improvements.
+
+### Tools and Technologies
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- VS Code
+- Git
+- GitHub
+
+### Output Evidence
+EDA plots were generated and saved in the `data/` directory:
+- Numeric distribution plots
+- Correlation heatmap
+- Top category counts
+
+### Key Findings
+The dataset contains 20 student records with some missing ML scores. Missing values were replaced using the median. Subject scores show variation across students, while the correlation analysis helps identify relationships between academic features. The dataset is small, so the findings should not be generalized to a larger population without additional data.
