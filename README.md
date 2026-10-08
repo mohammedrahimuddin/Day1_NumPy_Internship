@@ -58,3 +58,24 @@ Used official Government of India state/UT datasets from data.gov.in.
 - Merged dataset: 34 rows × 13 columns
 - CSV size: 3140 bytes
 - Parquet size: 12000 bytes
+## Day 3 – NumPy Data Loading, Cleaning & Inspection
+
+### Tasks Completed
+- Created and explored NumPy arrays.
+- Calculated shape, mean, standard deviation, minimum and maximum.
+- Used Boolean masking to find values above the average.
+- Performed matrix addition, dot product and transpose operations.
+- Applied broadcasting for column-wise normalization.
+- Implemented z-score normalization.
+- Added validation tests using assertions.
+- Verified that all validation tests passed successfully.
+
+### Tools and Technologies
+- Python
+- NumPy
+- VS Code
+- Git
+- GitHub
+
+### Validation
+All Day 3 NumPy validation tests passed successfully.
