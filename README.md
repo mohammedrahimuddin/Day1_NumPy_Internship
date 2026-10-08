@@ -109,3 +109,33 @@ EDA plots were generated and saved in the `data/` directory:
 
 ### Key Findings
 The dataset contains 20 student records with some missing ML scores. Missing values were replaced using the median. Subject scores show variation across students, while the correlation analysis helps identify relationships between academic features. The dataset is small, so the findings should not be generalized to a larger population without additional data.
+## Day 5 – Data Visualisation
+
+### Tasks Completed
+- Created a simulated ML model training dataset for 20 epochs.
+- Generated training and validation loss curves.
+- Generated training and validation accuracy curves.
+- Used Matplotlib subplots to create a two-panel model training dashboard.
+- Added labels, titles, legends, and grid lines for better readability.
+- Saved the final visualization as `training_curves.png`.
+- Compared training and validation performance across epochs.
+
+### Tools and Technologies
+- Python
+- NumPy
+- Matplotlib
+- VS Code
+- Git
+- GitHub
+
+### Key Observations
+- Training and validation loss generally decrease as the number of epochs increases.
+- Training and validation accuracy generally improve over time.
+- The validation curves contain some fluctuations, which can occur because of variation in validation performance.
+- The final training accuracy is slightly higher than the validation accuracy.
+- Visualising training curves makes it easier to understand model learning behaviour and identify possible overfitting.
+
+### Output Evidence
+The generated `training_curves.png` contains:
+- Training vs Validation Loss
+- Training vs Validation Accuracy
