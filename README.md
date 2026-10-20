@@ -139,3 +139,33 @@ The dataset contains 20 student records with some missing ML scores. Missing val
 The generated `training_curves.png` contains:
 - Training vs Validation Loss
 - Training vs Validation Accuracy
+
+
+## Week 2 - Day 1: Feature Engineering and Encoding
+
+### Objective
+Practice categorical encoding, feature scaling, and feature selection using Python.
+
+### Tasks Completed
+- Applied Label Encoding to performance categories.
+- Applied One-Hot Encoding to department categories.
+- Applied Ordinal Encoding to performance levels.
+- Applied StandardScaler, MinMaxScaler, and RobustScaler.
+- Used SelectKBest with f_regression to select the top 5 features.
+- Generated a feature score visualization.
+- Exported the processed dataset to CSV.
+
+### Technologies Used
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Scikit-learn
+
+### Output Files
+- `day6_feature_engineering.py`
+- `data/day6_feature_engineered.csv`
+- `data/day6_top_features.png`
+
+### Notes
+The dataset is synthetic student performance data created for learning and practice.
