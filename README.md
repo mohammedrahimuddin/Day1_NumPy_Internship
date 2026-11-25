@@ -139,3 +139,115 @@ The dataset contains 20 student records with some missing ML scores. Missing val
 The generated `training_curves.png` contains:
 - Training vs Validation Loss
 - Training vs Validation Accuracy
+
+
+## Week 2 - Day 1: Feature Engineering and Encoding
+
+### Objective
+Practice categorical encoding, feature scaling, and feature selection using Python.
+
+### Tasks Completed
+- Applied Label Encoding to performance categories.
+- Applied One-Hot Encoding to department categories.
+- Applied Ordinal Encoding to performance levels.
+- Applied StandardScaler, MinMaxScaler, and RobustScaler.
+- Used SelectKBest with f_regression to select the top 5 features.
+- Generated a feature score visualization.
+- Exported the processed dataset to CSV.
+
+### Technologies Used
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Scikit-learn
+
+### Output Files
+- `day6_feature_engineering.py`
+- `data/day6_feature_engineered.csv`
+- `data/day6_top_features.png`
+
+### Notes
+The dataset is synthetic student performance data created for learning and practice.
+## Week 2 - Day 2: Missing Data Handling
+
+### Topics Covered
+- Identifying missing values using Pandas
+- Calculating missing value percentages
+- SimpleImputer using Mean strategy
+- SimpleImputer using Median strategy
+- Categorical imputation using Mode
+- KNNImputer for numerical data
+- Comparing missing values before and after imputation
+
+### Practical Files
+- day7_missing_data.py
+- data/day7_missing_data_cleaned.csv
+- data/day7_missing_data_comparison.png
+
+### Result
+Successfully handled missing values using SimpleImputer and KNNImputer.
+Generated a cleaned dataset with zero missing values.
+## Week 2 - Day 3: Handling Imbalanced Data using SMOTE
+
+### Topics Covered
+- Understanding imbalanced datasets
+- Checking class distribution
+- Train-test splitting
+- SMOTE oversampling technique
+- Synthetic minority sample generation
+- Random Forest classification
+- Classification report
+- Confusion matrix visualization
+
+### Practical Files
+- day8_smote.py
+- data/day8_class_distribution.png
+- data/day8_confusion_matrix.png
+- data/day8_smote_balanced_train.csv
+
+### Result
+Successfully handled imbalanced data using SMOTE.
+Trained a Random Forest model and evaluated its performance.
+## Week 2 - Day 4: Train/Test Split & Cross-Validation
+
+### Objective
+To understand train-test splitting, feature scaling, and cross-validation for evaluating machine learning models.
+
+### Tasks Completed
+- Split the dataset into training and testing sets.
+- Applied StandardScaler, MinMaxScaler, and RobustScaler.
+- Trained a Random Forest Classifier.
+- Evaluated model performance using classification metrics.
+- Implemented K-Fold and Stratified K-Fold cross-validation.
+
+### Generated Outputs
+- `data/day9_cross_validation_results.csv`
+- `data/day9_scaling_comparison.csv`
+- `data/day9_cross_validation.png`
+
+### Result
+Successfully implemented train-test splitting, feature scaling, and cross-validation to evaluate model performance.
+## Week 2 - Day 5: End-to-End Titanic Preprocessing Pipeline
+
+### Objective
+To build an end-to-end preprocessing pipeline using the Titanic dataset and prepare ML-ready data.
+
+### Tasks Completed
+- Loaded and explored the Titanic dataset.
+- Performed Exploratory Data Analysis (EDA).
+- Identified and visualized missing values.
+- Handled missing numerical and categorical values.
+- Applied StandardScaler to numerical features.
+- Applied One-Hot Encoding to categorical features.
+- Split the dataset into training and testing sets.
+- Exported processed datasets for machine learning.
+
+### Generated Outputs
+- `data/day10_missing_values.png`
+- `data/day10_titanic_train_processed.csv`
+- `data/day10_titanic_test_processed.csv`
+- `data/day10_preprocessing_summary.csv`
+
+### Result
+Successfully developed an end-to-end Titanic preprocessing pipeline and generated ML-ready training and testing datasets.
