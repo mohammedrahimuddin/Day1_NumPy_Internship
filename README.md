@@ -228,3 +228,46 @@ To understand train-test splitting, feature scaling, and cross-validation for ev
 
 ### Result
 Successfully implemented train-test splitting, feature scaling, and cross-validation to evaluate model performance.
+
+## Week 3 - Machine Learning Algorithms
+
+### Day 1: Linear Regression
+- Implemented Linear, Ridge and Lasso Regression.
+- Evaluated models using MSE, RMSE, MAE and R2 Score.
+- Generated Actual vs Predicted and Residual plots.
+
+### Day 2: Logistic Regression & Classification
+- Implemented Binary and Multiclass Classification.
+- Evaluated Accuracy, Precision, Recall, F1 Score and ROC-AUC.
+- Compared One-vs-Rest and Softmax classification.
+- Generated Confusion Matrix, ROC Curve and Decision Boundary.
+
+### Day 3: Decision Trees & Random Forests
+- Implemented Decision Trees using Gini and Entropy.
+- Trained Random Forest Classifier.
+- Compared model performance.
+- Visualized Decision Trees and Feature Importance.
+
+### Day 4: SVM, KNN & Ensemble Learning
+- Implemented Support Vector Machine and K-Nearest Neighbors.
+- Applied feature scaling.
+- Implemented Bagging and Random Forest.
+- Compared model performance and Feature Importance.
+
+### Day 5: Hyperparameter Tuning
+- Implemented GridSearchCV and RandomizedSearchCV.
+- Used Stratified K-Fold Cross-Validation.
+- Identified best hyperparameters.
+- Compared tuned models and evaluated final performance.
+
+### Tools & Technologies
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Scikit-learn
+- SciPy
+- VS Code
+
+### Result
+Successfully implemented and evaluated multiple machine learning algorithms and generated performance comparison reports and visualizations.
