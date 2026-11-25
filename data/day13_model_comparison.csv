@@ -1,0 +1,4 @@
+Model,Accuracy
+Decision Tree - Gini,0.9385964912280702
+Decision Tree - Entropy,0.9385964912280702
+Random Forest,0.956140350877193
