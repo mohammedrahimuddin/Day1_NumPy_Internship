@@ -1,0 +1,6 @@
+Fold,KFold Accuracy,Stratified KFold Accuracy
+1,0.95,0.96
+2,0.94,0.925
+3,0.925,0.93
+4,0.94,0.935
+5,0.955,0.955
