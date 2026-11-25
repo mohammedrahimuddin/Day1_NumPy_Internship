@@ -169,3 +169,22 @@ Practice categorical encoding, feature scaling, and feature selection using Pyth
 
 ### Notes
 The dataset is synthetic student performance data created for learning and practice.
+## Week 2 - Day 2: Missing Data Handling
+
+### Topics Covered
+- Identifying missing values using Pandas
+- Calculating missing value percentages
+- SimpleImputer using Mean strategy
+- SimpleImputer using Median strategy
+- Categorical imputation using Mode
+- KNNImputer for numerical data
+- Comparing missing values before and after imputation
+
+### Practical Files
+- day7_missing_data.py
+- data/day7_missing_data_cleaned.csv
+- data/day7_missing_data_comparison.png
+
+### Result
+Successfully handled missing values using SimpleImputer and KNNImputer.
+Generated a cleaned dataset with zero missing values.
