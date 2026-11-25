@@ -209,3 +209,22 @@ Generated a cleaned dataset with zero missing values.
 ### Result
 Successfully handled imbalanced data using SMOTE.
 Trained a Random Forest model and evaluated its performance.
+## Week 2 - Day 4: Train/Test Split & Cross-Validation
+
+### Objective
+To understand train-test splitting, feature scaling, and cross-validation for evaluating machine learning models.
+
+### Tasks Completed
+- Split the dataset into training and testing sets.
+- Applied StandardScaler, MinMaxScaler, and RobustScaler.
+- Trained a Random Forest Classifier.
+- Evaluated model performance using classification metrics.
+- Implemented K-Fold and Stratified K-Fold cross-validation.
+
+### Generated Outputs
+- `data/day9_cross_validation_results.csv`
+- `data/day9_scaling_comparison.csv`
+- `data/day9_cross_validation.png`
+
+### Result
+Successfully implemented train-test splitting, feature scaling, and cross-validation to evaluate model performance.
