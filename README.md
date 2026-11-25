@@ -188,3 +188,24 @@ The dataset is synthetic student performance data created for learning and pract
 ### Result
 Successfully handled missing values using SimpleImputer and KNNImputer.
 Generated a cleaned dataset with zero missing values.
+## Week 2 - Day 3: Handling Imbalanced Data using SMOTE
+
+### Topics Covered
+- Understanding imbalanced datasets
+- Checking class distribution
+- Train-test splitting
+- SMOTE oversampling technique
+- Synthetic minority sample generation
+- Random Forest classification
+- Classification report
+- Confusion matrix visualization
+
+### Practical Files
+- day8_smote.py
+- data/day8_class_distribution.png
+- data/day8_confusion_matrix.png
+- data/day8_smote_balanced_train.csv
+
+### Result
+Successfully handled imbalanced data using SMOTE.
+Trained a Random Forest model and evaluated its performance.
