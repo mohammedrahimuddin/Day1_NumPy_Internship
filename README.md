@@ -228,3 +228,26 @@ To understand train-test splitting, feature scaling, and cross-validation for ev
 
 ### Result
 Successfully implemented train-test splitting, feature scaling, and cross-validation to evaluate model performance.
+## Week 2 - Day 5: End-to-End Titanic Preprocessing Pipeline
+
+### Objective
+To build an end-to-end preprocessing pipeline using the Titanic dataset and prepare ML-ready data.
+
+### Tasks Completed
+- Loaded and explored the Titanic dataset.
+- Performed Exploratory Data Analysis (EDA).
+- Identified and visualized missing values.
+- Handled missing numerical and categorical values.
+- Applied StandardScaler to numerical features.
+- Applied One-Hot Encoding to categorical features.
+- Split the dataset into training and testing sets.
+- Exported processed datasets for machine learning.
+
+### Generated Outputs
+- `data/day10_missing_values.png`
+- `data/day10_titanic_train_processed.csv`
+- `data/day10_titanic_test_processed.csv`
+- `data/day10_preprocessing_summary.csv`
+
+### Result
+Successfully developed an end-to-end Titanic preprocessing pipeline and generated ML-ready training and testing datasets.
