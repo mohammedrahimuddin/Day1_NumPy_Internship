@@ -271,3 +271,62 @@ Successfully implemented train-test splitting, feature scaling, and cross-valida
 
 ### Result
 Successfully implemented and evaluated multiple machine learning algorithms and generated performance comparison reports and visualizations.
+
+# Week 4 – Advanced Machine Learning, Model Deployment & Responsible AI
+
+## Day 16 – Model Evaluation Metrics
+- Accuracy, Precision, Recall, F1-score and ROC-AUC.
+- Confusion Matrix, ROC Curve and Precision-Recall Curve.
+- Stratified Cross-Validation and Learning Curves.
+
+## Day 17 – Bias-Variance Tradeoff & Regularisation
+- Bias and Variance analysis.
+- Decision Tree depth comparison.
+- Ridge and Lasso Regularisation.
+- Grid Search and Randomized Search.
+
+## Day 18 – Model Serialization
+- Model saving using Joblib and Pickle.
+- Loading saved ML models.
+- Prediction verification.
+- Model evaluation and visualization.
+
+## Day 19 – FastAPI Model Serving
+- Class weighting and threshold optimization.
+- ML model deployment using FastAPI.
+- GET /health and POST /predict endpoints.
+- Swagger API testing.
+
+## Day 20 – Sentiment Classifier
+- Text preprocessing using TF-IDF.
+- Logistic Regression and Random Forest.
+- Accuracy, Precision, Recall and ROC-AUC comparison.
+- Confusion Matrix and ROC Curve.
+
+Note: Used a small educational review dataset.
+
+## Day 21 – Responsible AI
+- UCI Adult Income dataset analysis.
+- Gender-based Disparate Impact analysis.
+- Logistic Regression and SHAP explainability.
+- AIF360 Reweighing.
+- Original vs Reweighed model comparison.
+- Model Card PDF.
+- India AI Bias Case Analysis.
+
+## Technologies Used
+- Python 3.11
+- NumPy
+- Pandas
+- Matplotlib
+- Scikit-learn
+- Joblib and Pickle
+- FastAPI and Uvicorn
+- AIF360
+- SHAP
+- ReportLab
+
+## Week 4 Outcome
+Completed six practicals covering machine learning evaluation,
+regularisation, model serialization, API deployment,
+sentiment classification and responsible AI.

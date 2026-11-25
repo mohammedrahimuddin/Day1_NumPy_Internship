@@ -1,0 +1,3 @@
+Search Method,Best Alpha,Best CV MSE
+Grid Search,0.01,611.235125592034
+Randomized Search,0.001,611.2351769174763
